@@ -1,14 +1,9 @@
 import React from 'react';
 function App() {
   return (
-    <div>
-      <div className='bg-red-500 text-white m-4'>Hello</div><br/>
-      <div className='bg-red-500 text-white mx-4'>Hello</div><br/>
-      <div className='bg-red-500 text-white my-4'>Hello</div><br/>
-      <div className='bg-red-500 text-white mt-4'>Hello</div><br/>
-      <div className='bg-red-500 text-white mb-4'>Hello</div><br/>
-      <div className='bg-red-500 text-white ml-4'>Hello</div><br/>
-      <div className='bg-red-500 text-white mr-4'>Hello</div><br/>
+    <div className='flex space-x-4 min-h-screen'>
+      <div className='w-1/5 bg-red-500'>Sidebar</div>
+      <div className='w-4/5  bg-green-500'>content</div>
     </div>
   );
 }
