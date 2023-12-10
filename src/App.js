@@ -1,9 +1,11 @@
 import React from 'react';
 function App() {
   return (
-    <div className='flex space-x-4 min-h-screen'>
-      <div className='w-1/5 bg-red-500'>Sidebar</div>
-      <div className='w-4/5  bg-green-500'>content</div>
+    <div>
+      <div className='mb-4 font-bold text-3xl'>First</div>
+      <div className='mb-3 font-bold text-3xl'>Second</div>
+      <div className='mb-2 font-bold text-3xl'>Third</div>
+      <div className='mb-1 font-bold text-3xl'>Fourth</div>
     </div>
   );
 }
