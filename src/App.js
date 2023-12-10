@@ -1,11 +1,20 @@
-import React from 'react';
+import React from "react";
 function App() {
   return (
-    <div>
-      <div className='mb-4 font-bold text-3xl'>First</div>
-      <div className='mb-3 font-bold text-3xl'>Second</div>
-      <div className='mb-2 font-bold text-3xl'>Third</div>
-      <div className='mb-1 font-bold text-3xl'>Fourth</div>
+    // <div className="parent">
+    //   <div>Header</div>
+    //   <div className="flex">
+    //     <div className="basis-1/4">Sidebar</div>
+    //     <div className="basis-2/4">Main Content</div>
+    //     <div className="basis-1/4">Another Sidebar</div>
+    //   </div>
+    // </div>
+    <div className="parent">
+      <div>Header</div>
+      <div className="flex flex-col md:flex-row">
+        <div className="w-32 bg-sky-500">Sidebar</div>
+        <div className="w-full bg-red-500">Main content</div>
+      </div>
     </div>
   );
 }
