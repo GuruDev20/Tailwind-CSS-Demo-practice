@@ -2,30 +2,25 @@ import React from "react";
 function App() {
   return (
     <div className="h-screen text-white parent bg-slate-900">
-      <div className="container mx-auto">
-        {/* <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-4">
-          <div className="bg-sky-500 p-6 rounded-lg">1</div>
-          <div className="bg-sky-500 p-6 rounded-lg">2</div>
-          <div className="bg-sky-500 p-6 rounded-lg">3</div>
-          <div className="bg-red-500 p-6 rounded-lg col-span-2">4</div>
-          <div className="bg-sky-500 p-6 rounded-lg">5</div>
-          <div className="bg-sky-500 p-6 rounded-lg">6</div>
-          <div className="bg-green-500 p-6 rounded-lg col-span-2">7</div>
-        </div> */}
-        <div class="grid grid-flow-row-dense grid-cols-3 grid-rows-3 gap-4">
-          <div className="p-6 bg-sky-500 rounded-lg col-span-2">01</div>
-          <div className="p-6 bg-sky-500 rounded-lg col-span-2">02</div>
-          <div className="p-6 bg-sky-500 rounded-lg">03</div>
-          <div className="p-6 bg-sky-500 rounded-lg">04</div>
-          <div className="p-6 bg-sky-500 rounded-lg">05</div>
-          <div className="p-6 bg-sky-500 rounded-lg col-span-2">06</div>
-          <div className="p-6 bg-sky-500 rounded-lg">07</div>
-          <div className="p-6 bg-sky-500 rounded-lg">08</div>
-          <div className="p-6 bg-sky-500 rounded-lg">09</div>
-          <div className="p-6 bg-sky-500 rounded-lg col-span-2">10</div>
-          <div className="p-6 bg-sky-500 rounded-lg">11</div>
-          <div className="p-6 bg-sky-500 rounded-lg">12</div>
+      {/* <div className="container px-2 columns-3">
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+      </div> */}
+      {/* <div className="container px-2 pt-10">
+        <div className="relative bg-red-500 rounded-lg p-8 w-32 h-32">
+          <div className="w-24 h-24 bg-green-500 rounded-lg absolute -left-2 -top-2"></div>
         </div>
+        <div className="relative bg-red-500 rounded-lg mt-10 p-8 w-32 h-32">
+          <div className="w-24 h-24 bg-green-500 rounded-lg absolute inset-4"></div>
+        </div>
+      </div> */}
+      <div className="container flex">
+        <div className="bg-red-500 z-40 rounded-full border-white">05</div>
+        <div className="bg-red-500 z-30 rounded-full border-white">04</div>
+        <div className="bg-red-500 z-20 rounded-full border-white">03</div>
+        <div className="bg-red-500 z-10 rounded-full border-white">02</div>
+        <div className="bg-red-500 z-0 rounded-full border-white">01</div>
       </div>
     </div>
   );
