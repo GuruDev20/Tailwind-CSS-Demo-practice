@@ -1,12 +1,28 @@
 import React from "react";
 function App() {
   return (
-    <div className="h-screen p-4 parent">
-      <h1 className="text-2xl">Hello</h1>
-      <p className="mb-4"> This is my di</p>
-      <button className="px-3 py-2 text-white transition delay-1000 rounded-lg shadow-md cursoe-pointer hover:-translate-y-1 duration-1000 animate-bounce ease-in-out bg-cyan-500 shadow-cyan-500/50">
-        Say hello
-      </button>
+    <div>
+      <h1>This is a title</h1>
+      <h2>This is a subtitle</h2>
+      <p className="text-base">This is a paragraph</p>
+      <div>
+        <button>This is button</button>
+      </div>
+      <div>
+        <input type="tex"/>
+      </div>
+      <div>
+        <input type="checkbox" id="checkbox"/>
+        <label for="checkbox">CheckBox</label>
+      </div>
+      <div>
+        <select>
+          <option>Option 1</option>
+          <option>Option 2</option>
+        </select>
+      </div>
+      <h1>This is another title</h1>
+      <h2>This is a subtitle</h2>
     </div>
   );
 }
